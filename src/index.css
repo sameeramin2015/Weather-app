@@ -8,7 +8,7 @@
 
 
 body {
- 
+ background-color:darkslategrey;
   font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -90,9 +90,15 @@ h1 {
   font-size: 1.2rem;
   border-radius: 25px;
   border: 1px solid rgb(255, 255, 255, 0.8);
-  background: darkgrey;
+  background-color: darkslategrey;
   color: #fff;
 }
 ::placeholder {
   color: #fff;
+}
+.ftr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
