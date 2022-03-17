@@ -51,7 +51,7 @@ function App() {
       </div>
       }
     </div>
-   
+   <footer className='ftr'>Design & developed by Sameer Jahanzeb </footer>
     </div>
   );
 }
